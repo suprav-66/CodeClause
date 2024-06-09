@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Launch Tkinter App</title>
+</head>
+<body>
+  <h1>Welcome to the Flask Todo List App Launcher!</h1>
+  <p>Click the button below to launch the Todo List App.</p>
+  <form action="{{ url_for('run_todo_app') }}" method="post">
+    <button type="submit">Launch Todo List App</button>
+  </form>
+</body>
+</html>
