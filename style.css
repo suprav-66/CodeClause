@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-image: url('../images/Url.png'); /* Adjust the path as per your folder structure */
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(6, 6, 6);
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: rgb(6,6,6);
+    
+}
+
+/* Container styles */
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid #5720f1a1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    transition: transform 0.2s;
+}
+
+.container1 {
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid #5720f1a1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    transition: transform 0.2s;
+    margin-bottom: 50px;
+}
+.container1:hover {
+    transform: translateY(-5px);
+}
+
+.container:hover {
+    transform: translateY(-5px);
+}
+form {
+    margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6207f36f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+form button:hover {
+    background-color: #5720f1a1;
+}
+
+/* Navigation button styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    border: #05010f;
+    border-radius: 2px;
+    color: #05010f; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #5720f1a1; /* Hover color */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: rgb(127, 23, 246);
+    padding: 15px 0; /* Adjusted padding for responsiveness */
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    position: fixed; /* Fixed position to stick to the bottom */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .footer span {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(248, 250, 250);
+}

@@ -1,0 +1,13 @@
+<!-- analytics.html -->
+
+{% extends 'base.html' %}
+
+{% block title %}Analytics - URL Shortener{% endblock %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% block content %}
+<h2>Analytics for Short URL: {{ url.short_url }}</h2>
+<p>Original URL: <a href="{{ url.original_url }}">{{ url.original_url }}</a></p>
+<p>Clicks: {{ url.click_count }}</p>
+<p>Created At: {{ url.created_at }}</p>
+<a href="{{ url_for('dashboard') }}">Back to Dashboard</a>
+{% endblock %}
