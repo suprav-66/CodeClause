@@ -2,7 +2,7 @@ Realtime chat application
 
 This is a chat application built with python, javascript, nodejs, html & css , react to make user interaction great.
 
-All you need to run the webstie is NPM installed on your computer!
+All you need to run the website is NPM installed on your computer!
 
 I haven't provided the npm modules but you can install it on your system
 
